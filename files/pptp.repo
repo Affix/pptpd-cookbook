@@ -1,0 +1,31 @@
+[pptp-stable]
+name=PPTP Client stable repository for Red Hat Enterprise Linux $releasever ($basearch)
+#baseurl=http://pptpclient.sourceforge.net/yum/stable/rhel$releasever/$basearch
+mirrorlist=http://pptpclient.sourceforge.net/yum/stable/mirrorlist-pptp-stable-rhel$releasever
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-PPTP
+
+[pptp-beta]
+name=PPTP Client beta repository for Red Hat Enterprise Linux $releasever ($basearch)
+#baseurl=http://pptpclient.sourceforge.net/yum/beta/rhel$releasever/$basearch
+mirrorlist=http://pptpclient.sourceforge.net/yum/beta/mirrorlist-pptp-beta-rhel$releasever
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-PPTP
+
+[poptop-stable]
+name=PoPToP stable repository for Red Hat Enterprise Linux $releasever ($basearch)
+#baseurl=http://poptop.sourceforge.net/yum/stable/rhel$releasever/$basearch
+mirrorlist=http://poptop.sourceforge.net/yum/stable/mirrorlist-poptop-stable-rhel$releasever
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-PPTP
+
+[poptop-beta]
+name=PoPToP beta repository for Red Hat Enterprise Linux $releasever ($basearch)
+#baseurl=http://poptop.sourceforge.net/yum/beta/rhel$releasever/$basearch
+mirrorlist=http://poptop.sourceforge.net/yum/beta/mirrorlist-poptop-beta-rhel$releasever
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-PPTP
